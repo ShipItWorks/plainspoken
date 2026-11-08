@@ -2,7 +2,7 @@
 
 You type what you want; it rewrites a prompt an AI understands, then explains the changes.
 
-**Score: 75 / 100** on the [ShipItWorks rubric](https://shipitworks.com/how-we-score/). Stage: Beta. As of 2026-11-02, from the [product page](https://shipitworks.com/apps/#plainspoken).
+**Score: 75 / 100** on our own [rubric](https://shipitworks.com/how-we-score/). Stage: Beta. Scored 2026-11-01; this record was updated 2026-11-07 from the [product page](https://shipitworks.com/apps/#plainspoken).
 
 Every number on the product page names the file it came from. The lists below are copied from that page, not rewritten.
 
@@ -17,10 +17,14 @@ Every number on the product page names the file it came from. The lists below ar
 
 ## Not done yet
 
-- e2e never run here (missing Chromium build); the live OpenRouter rewrite path and the live site have never been seen working
-- No dark mode; two token pairs measure under 4.5:1 by arithmetic
+- e2e not run here (missing Chromium build); the live OpenRouter rewrite path and the live site have not been seen working
+- No dark mode; two token pairs measure under 4.5:1 by arithmetic (ink-faint on desk 2.88, pen links 3.98), not yet fixed
 - Rate limit is per server instance (in-memory, lost on restart), so it is weak on serverless
 - .env.example is stale: it describes per-intent routing and a per-rewrite cost the README says was removed 2026-10-01
+
+## What changed
+
+Nothing merged to the default branch of the private source repository in the 2026-11-07 close-out. See [CHANGELOG](CHANGELOG.md).
 
 ## Demo
 
@@ -30,7 +34,7 @@ The demo voice is AI-generated (ElevenLabs, "Alice") and the demo shows made-up 
 
 ## Source code
 
-The source is private for now. This repository holds the public record for the product: this README, and soon a CHANGELOG and LICENSE. Until the source is public, the [product page](https://shipitworks.com/apps/#plainspoken) is the source of truth, and the score above is the one to trust.
+The source is private for now. This repository holds the public record for the product: this README and a CHANGELOG, and soon a LICENSE. Until the source is public, the [product page](https://shipitworks.com/apps/#plainspoken) is the source of truth, and the score above is the one to trust.
 
 ## How we work
 
