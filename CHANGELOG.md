@@ -2,6 +2,12 @@
 
 Public record of changes to plainspoken, written from the product page on shipitworks.com. The source is private. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Release tags exist on the private repository's default branch.
 
+## 2026-11-18 (release v0.3.0)
+
+- 2026-11-18: A review corrected two lines here: the privacy page on plainspoken.site now loads (it was a 404 in the 2026-11-07 log), and 5 pull requests are open, not one. No feature label or score changed.
+
+Score 67 / 100 on our own rubric, scored 2026-11-12. Product page: https://shipitworks.com/plainspoken/
+
 ## 2026-11-10 (release v0.3.0)
 
 - 2026-11-10: Site copy only: a dated correction now sits under the demo video for the narration line at 1:06. No code or score change.
